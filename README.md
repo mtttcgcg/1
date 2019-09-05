@@ -5,4 +5,4 @@ Testing if an edit makes the bot do anything
 Testing if a push by a diff user makes my action run
 hnhthnhnthh
 
-made - align with steps
+made - align with steps and merged with a branch
