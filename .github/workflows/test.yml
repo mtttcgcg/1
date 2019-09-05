@@ -1,12 +1,11 @@
-on: push
+on: [push]
+
 jobs:
   my_first_job:
     name: My first job
     runs-on: ubuntu-latest
+    container: appropriate/curl
     steps:
-    - name: Call Github API
-      container: appropriate/curl
-      steps:
       - name: say hi
         run: |
           echo HELLO!
